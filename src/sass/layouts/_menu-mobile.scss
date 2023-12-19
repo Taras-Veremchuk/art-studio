@@ -1,0 +1,124 @@
+.button-menu__open,
+.button-menu__close {
+  display: inline-flex;
+  margin: 0;
+  padding: 0;
+  border: none;
+  background-color: transparent;
+  fill: white;
+
+  @media screen and (min-width: 768px) {
+    display: none;
+  }
+  &:hover,
+  &:focus {
+    fill: #2196f3;
+  }
+}
+.button-menu__open {
+  justify-content: flex-end;
+}
+.button-menu__close {
+  position: absolute;
+  top: 21px;
+  right: 25px;
+}
+
+.menu-container {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  padding: 48px 40px;
+  background-color: white;
+  z-index: 999;
+  //   transition: transform 250ms $cubic-brizer;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.04), 0px 2px 4px rgba(0, 0, 0, 0.08),
+    0px 1px 3px rgba(0, 0, 0, 0.16);
+  transform: translateX(100%);
+  transition: transform 250ms ease-in-out;
+
+  display: flex;
+  flex-direction: column;
+}
+
+.menu-container.is-open {
+  transform: translateX(0);
+}
+
+.menu {
+  // @extend %list;
+  text-decoration: none;
+}
+.menu__item {
+  &:not(:last-child) {
+    margin-bottom: 32px;
+  }
+}
+.menu__link {
+  font-weight: 500;
+  font-size: 40px;
+  line-height: 1.18;
+  letter-spacing: 0.02em;
+  color: white;
+  text-decoration: none;
+
+  &:focus,
+  &:hover {
+    color: var(--navigation-color);
+  }
+}
+.menu__link-current {
+  color: var(--navigation-color);
+}
+.menu-contacts {
+  margin-top: auto;
+}
+.menu__tell {
+  font-weight: 500;
+  font-size: 34px;
+  line-height: 1.17;
+  letter-spacing: 0.02em;
+  color: var(--navigation-color);
+  text-decoration: none;
+}
+// .menu-contacts_list {
+//   @extend %list;
+// }
+.menu__mail {
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 1.17;
+  letter-spacing: 0.02em;
+  color: var(--secondary-text-color);
+  margin-bottom: 64px;
+  text-decoration: none;
+}
+.menu-contacts__tell {
+  margin-bottom: 32px;
+}
+.menu-contacts__mail {
+  margin-bottom: 64px;
+}
+.social-menu {
+  // @extend %list;
+  display: flex;
+  flex-wrap: wrap;
+  row-gap: 10px;
+}
+.social-menu__link {
+  position: relative;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 22px;
+  letter-spacing: 0.02em;
+  color: var(--navigation-color);
+  text-decoration: none;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.social-menu__iteam + .social-menu__iteam {
+  border-left: 1px solid rgba(33, 33, 33, 0.2);
+}

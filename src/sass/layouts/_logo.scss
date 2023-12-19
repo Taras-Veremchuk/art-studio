@@ -1,0 +1,44 @@
+.page-header__logo {
+  color: white;
+  font-family: Kalam;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  text-decoration: none;
+  padding-top: 16px;
+  padding-bottom: 16px;
+
+  @media screen and (max-width: 1200px) {
+    font-size: 24px;
+    line-height: 1.16;
+  }
+  @media screen and (max-width: 768px) {
+    margin-right: auto;
+    font-size: 24px;
+  }
+}
+.page-header__logotype {
+  margin-right: 5px;
+  color: white;
+}
+.footer-logo-align {
+  align-items: center;
+}
+.footer__logo {
+  color: var(--accent-color);
+  font-family: "Kalam";
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.2;
+  text-decoration: none;
+  display: inline-block;
+  margin-bottom: 20px;
+
+  @media screen and (max-width: 1200px) {
+    font-size: 24px;
+    line-height: 1.16;
+  }
+}
+.footer__logotype {
+  margin-right: 5px;
+}

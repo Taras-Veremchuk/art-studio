@@ -1,2 +1,33 @@
 @import './common';
-@import './example';
+
+// base
+@import './base/reset';
+
+// utils
+@import './utils/variables';
+@import './utils/container';
+@import './utils/visually-hidden';
+@import './utils/placeholders';
+
+
+// layouts
+@import './layouts/menu-mobile';
+@import './layouts/logo';
+@import './layouts/buttons';
+// @import './layouts/footer';
+// @import './layouts/hero';
+// @import './layoutsfeatures';
+// @import './layouts/devices';
+// @import './layouts/people';
+// @import './layouts/clients';
+// @import './layouts/gallery';
+// @import './layouts/repeta-menu';
+// @import './layouts/cashback';
+
+// components
+@import './components/page-header';
+@import './components/hero';
+// @import './components/modal';
+// @import './components/slider';
+// @import './components/gallery';
+
