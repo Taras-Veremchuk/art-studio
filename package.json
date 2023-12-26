@@ -18,7 +18,9 @@
     "url": "https://github.com/Taras-Veremchuk/art-studio.git/issues"
   },
   "dependencies": {
-    "modern-normalize": "^1.1.0"
+    "@emailjs/browser": "^3.11.0",
+    "modern-normalize": "^1.1.0",
+    "simplelightbox": "^2.12.1"
   },
   "devDependencies": {
     "@parcel/transformer-sass": "^2.6.0",

@@ -1,4 +1,7 @@
-import './sass/index.scss'
+import "./js/email"
 
-// import './js/Arrow-up';
-// import './js/slider';
+// import "./js/slider"
+// import "./js/mobile-menu"
+// import "./js/modal"
+
+
