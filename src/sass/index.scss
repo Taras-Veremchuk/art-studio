@@ -14,20 +14,12 @@
 @import './layouts/menu-mobile';
 @import './layouts/logo';
 @import './layouts/buttons';
-// @import './layouts/footer';
-// @import './layouts/hero';
-// @import './layoutsfeatures';
-// @import './layouts/devices';
-// @import './layouts/people';
-// @import './layouts/clients';
 // @import './layouts/gallery';
-// @import './layouts/repeta-menu';
-// @import './layouts/cashback';
+@import './layouts/footer';
 
 // components
+@import './components/slider';
 @import './components/page-header';
 @import './components/hero';
-// @import './components/modal';
-// @import './components/slider';
-// @import './components/gallery';
+@import './components/gallery';
 
