@@ -567,6 +567,16 @@
   border-radius: 15px;
 }
 
+.parent{
+  border: 2px solid red;
+  padding-left: 50px;
+}
+
+.children{
+border: 2px solid #B7DDF5;
+height: 100%;
+}
+
 // Section PRICE
 // Section PRICE
 // Section PRICE
@@ -574,29 +584,56 @@
 // Section PRICE
 // Section PRICE
 // Section PRICE
+.price{
+  padding-top: 150px;
+}
+
+.price-container{
+  display: flex;
+
+  @media screen and (max-width: 767px) {
+    flex-direction: column;
+    gap: 40px;
+  }
+  @media screen and (min-width: 768px) {
+    gap: 79px;
+  }
+}
 
 .price_title {
   font-weight: 600px;
   font-size: 32px;
-  margin-top: 40px;
   margin-bottom: 24px;
 }
+
 .price_list {
   list-style: none;
 }
+
 .price_item {
   padding-top: 8px;
   padding-bottom: 8px;
 }
+
 .price_item-text {
   font-weight: 400px;
   font-size: 18px;
   padding-left: 4px;
 }
+
 .price_item-backgrpink {
   background-color: #ecb6b6;
   border-radius: 12px;
 }
+
+.price-box{
+  flex:1
+}
+
+.form-box{
+  flex:1
+}
+
 // SECTION UKR
 // SECTION UKR
 // SECTION UKR

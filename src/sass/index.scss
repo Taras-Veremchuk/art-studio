@@ -4,6 +4,7 @@
 @import './base/reset';
 
 // utils
+@import './utils/is-hidden';
 @import './utils/variables';
 @import './utils/container';
 @import './utils/visually-hidden';
@@ -14,12 +15,14 @@
 @import './layouts/menu-mobile';
 @import './layouts/logo';
 @import './layouts/buttons';
+@import './layouts/form';
 // @import './layouts/gallery';
 @import './layouts/footer';
 
 // components
 @import './components/slider';
 @import './components/page-header';
-@import './components/hero';
 @import './components/gallery';
+@import './components/hero';
+@import './components/modal';
 
